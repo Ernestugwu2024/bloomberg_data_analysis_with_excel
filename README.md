@@ -3,7 +3,7 @@
 ## Preview of Data  
    This data is a detailed Bloomberg extraction, outlining financial information over multiple fiscal years from 2016 to 2023. It provides an in-depth view of revenues, segmented by product, brand and geographic area,along with a breakdown of operating expenses,gross profits,net income and earnings per share(EPS). Specific figures for wholesale,retail,and other businesses are detailed across various regions,offering a comprehensive insight into the financial performance of the ticker “ADS GY Equity.  
 
-# PROCEDURE IN ANALYZING THE DATA.  
+# procedure in analyzing the data  
 
 - ### Creation of P&L structure  
    Before preparing a concise P&L structure for the last five years,the source data and structure was examine and the following was observed at the outset of the data; company thicker,full company name,periodicity of financial statements,currency and measuring unit  
@@ -20,10 +20,7 @@ The Bloomberg spreadsheet has many details,but I focused on the following steps
 By filtering ,I obtained a structured that allows me to easily mark in yellow the figures I want to see in the report such as: Revenue ,Cost of Revenue,Gross profit,Operating Expenses and Operating income (equal to EBIT)  
 
 ![solution picture ref](./images/Picture2.png)  
-
-To organize the P&L,the header containing the financial period from the source table was copied.  
-
-![solution picture ref](/images/Picture3.png)  
+ 
 
 To address the leading space issue a new column inside the report sheet that will be hidden was inserted,then I proceeded to removing the leading spaces to improve the formatting of the P&L table.  
 
@@ -50,11 +47,11 @@ After including the row in the P&L statement and the check shows that the work i
 ![solution picture ref](/images/Picture8.png)  
 
 The CAGR was calculated using the following formula;  
+
+
 ![solution picture ref](/images/Picture9.png)  
 
-The formula in excel appears as such  
-
-![solution picture ref](/images/Picture10.png)  
+  
 
 
 # Visualization of the data  
@@ -69,4 +66,20 @@ The formula in excel appears as such
 
   ![solution picture ref](/images/Picture14.png)
 
+
+# Interpreting the Data  
+
+- Growth Analysis
+
+The company exhibited steady revenue growth, with a CAGR(annual growth rate) of 7.33% from FY 2019 to FY 2023. This consistent growth is indicative of a solid and expanding business. The Retail segment stood out as the fastest-growing sector, with a CAGR of 14.49%, while the Wholesale segment saw the slowest growth, with a CAGR of 4.82%. The Other Businesses segment also showed commendable growth with a CAGR of 9.66%.
+
+- Profitability Analysis
+
+The company's profitability has improved remarkably over the period. The gross profit grew at a CAGR of 9.66%, and the gross profit margin increased from 46% to 50%. This uptick in margin demonstrates that the company has effectively managed its direct costs and possibly increased sales prices.
+
+Furthermore, EBIT grew at a remarkable CAGR of 22.79%, with the EBIT percentage rising from 5% to 9%. This growth signifies better control over operating costs and an enhancement in operational efficiency.
+
+## Summary
+
+The financial data from FY 2019 to FY 2023 reflects a robust performance for the company in growth and profitability. Revenue growth has been steady, with strength in the Retail segment. Profitability has not only been maintained but has also seen significant improvements across key metrics, including substantial growth in EBIT. This balance of top-line growth with bottom-line improvements indicates a well-managed expansion. Adidas demonstrated a robust competitive position in the industry and a sustainable growth trajectory. The combination of growth in both revenue and profitability metrics suggests strategic execution in market penetration and cost control.
 
