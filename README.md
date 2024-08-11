@@ -57,12 +57,6 @@ The CAGR was calculated using the following formula;
 # Visualization of the data  
   To illustrate how different business lines contributed to revenue,I created a stacked column chart,I selected the revenue breakdown figures and chose the following type of visualization from the insert tab  
 
-  ![solution picture ref](/images/Picture12.png)  
-
-  Additionally, to display a secondary line that allows us to see the company ‘s profitability (EBIT%)during the period under analysis.I edited the chart by right clicking on it and select Data option, I named it EBIT% and select the EBIT% from the P&L statement.After adding the EBIT% series to the chart,I indicated that i want it to displayed on a secondary axis.  
-  This was achieved by right-clicking on one of the more extensive series in the chart,selecting format Data series,then going to series options and choosing the series with name EBIT%  
-
-  ![solution picture ref](/images/Picture13.png)  
 
   ![solution picture ref](/images/Picture14.png)
 
